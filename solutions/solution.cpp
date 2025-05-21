@@ -11,7 +11,9 @@ vector<int> sortedSquares(vector<int>& nums) {
         if (abs(nums[left]) > abs(nums[right])) {
             result[pos] = nums[left] * nums[left];
             left++;//ss
-        
+        } else {
+            
+        }
         pos--;//2dsfsdss
     }
 
